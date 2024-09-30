@@ -6,12 +6,12 @@ CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
 
 user_input = None
 
-@app.route("/")
+@app.route("/")    
 def home():
     return "<h1>Hello, Flask Demo Project!</h1>"
 
 
-@app.route('/user', methods=['POST'])
+@app.route('/frontend', methods=['POST'])
 def add_message():
     global user_input
     data = request.get_json()
@@ -21,7 +21,7 @@ def add_message():
     return jsonify({"Message":"Message saved successfully"}), 201
     
 
-@app.route('/user', methods=['GET'])
+@app.route('/frontend', methods=['GET'])
 def get_message():
     global user_input
     print(f"Current message: {user_input}")
