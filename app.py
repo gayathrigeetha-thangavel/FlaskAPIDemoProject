@@ -11,7 +11,7 @@ def home():
     return "<h1>Hello, Flask Demo Project!</h1>"
 
 
-@app.route('/frontend', methods=['POST'])
+@app.route('/frontend', methods=['POST']) 
 def add_message():
     global user_input
     data = request.get_json()
