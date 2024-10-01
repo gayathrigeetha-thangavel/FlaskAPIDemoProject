@@ -4,7 +4,7 @@ Implemented POST and GET requests using Flask API as backend and React as Fronte
 
     -- User can add the message and retrieve the message which they have added previously.
 
-Backend: FlaskAPI:
+Backend(Flask API):
 
     -- To run this backend endpoint have to setup the environment.
     -- To create : python3 -m venv env.
@@ -18,15 +18,11 @@ Run this below command:
 
 To run the project:
 
-In the base directory and run: npm install before running the scripts below.
-
-Then, run "python app.py" to start the flask backend server in one terminal.
-
-Open http://localhost:5000 to view it in the browser.
-
-Next, run "npm start" to start the frontend of the application.
-
-Open http://localhost:3000 to view it in the browser.
+    -- In the base directory and run: npm install before running the scripts below.
+    -- Then, run "python app.py" to start the flask backend server in one terminal.
+    -- Open http://localhost:5000 to view it in the browser.
+    -- Next, run "npm start" to start the frontend of the application.
+    -- Open http://localhost:3000 to view it in the browser.
 
 Testing the application:
 
